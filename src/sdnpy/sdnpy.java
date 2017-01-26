@@ -2,17 +2,17 @@ package sdnpy;
 import java.awt.*;
 import javax.swing.*;
 /*
- * ¨V©¤©¤©¤©¤©¤©¤©¤©¤¨Y    ¨V©¤¨Y   ¨V©¤©¤©¤©¤©¤©¤©¤©¤¨Y          ¨V©¤©¤©¤ ©¤©¤¨Y                                        ¨V©¤¨Y
- * ©¸©¤©¤©¤¨Y¨V©¤©¤©¤©¼    ¨\©¤¨_    ©¦ ©°©¤©¤©¤©¤©´   ©¦   ©°©¤©´©¸©¤©¤©¤©¤©¤©¼            ©°©¤©¤©¤©¤©´            ©¦  ©¦
- *            ©¦©¦                ©°©´      ©¦©¦             ©¦  ©¦   ©¦  ©¦                       ©°©¤©´©¸©¤©¤©¤©¤©¼©°©¤©´    ©¦  ©¦
- * 			   ©¦©¦                ©¦©¦      ©¦©¦©¤©¤©¤©¤©¤©¼ ©¦   ©¦   ©¸©¤©¤©¤©¤©¤©¤¨Y   ©¦  ©¦                 ©¦   ©¦    ©¦  ©¦
- *            ©¦©¦                ©¦©¦      ©¦©¦©¤©¤©¤©¤©¤©¤©¼    ©¸©¤©¤©¤©¤©¤©¤©¤¨Y ©¦   ©¦ ©¦                  ©¦   ©¦    ©¦  ©¦
- *            ©¦©¦                ©¦©¦      ©¦©¦                        ©°©¤©¤©¤©¤©¤©´©¸©¤©¼   ©¸©¤©¼©°©¤©¤©¤©¤¨Y©¦   ©¦    ©¦  ©¦
- *            ©¸©¼                ©¸©¼      ©¸©¼                         ©¸©¤©¤©¤©¤©¤©¼                   ©¸©¤©¤©¤©¤©¼©¸©¤©¼    ©¸©¤©¼
+ * â•’â”€â”€â”€â”€â”€â”€â”€â”€â••    â•’â”€â••   â•’â”€â”€â”€â”€â”€â”€â”€â”€â••          â•’â”€â”€â”€ â”€â”€â••                                        â•’â”€â••
+ * â””â”€â”€â”€â••â•’â”€â”€â”€â”˜    â•˜â”€â•›    â”‚ â”Œâ”€â”€â”€â”€â”   â”‚   â”Œâ”€â”â””â”€â”€â”€â”€â”€â”˜            â”Œâ”€â”€â”€â”€â”            â”‚  â”‚
+ *            â”‚â”‚                â”Œâ”      â”‚â”‚             â”‚  â”‚   â”‚  â”‚                       â”Œâ”€â”â””â”€â”€â”€â”€â”˜â”Œâ”€â”    â”‚  â”‚
+ * 			   â”‚â”‚                â”‚â”‚      â”‚â”‚â”€â”€â”€â”€â”€â”˜ â”‚   â”‚   â””â”€â”€â”€â”€â”€â”€â••   â”‚  â”‚                 â”‚   â”‚    â”‚  â”‚
+ *            â”‚â”‚                â”‚â”‚      â”‚â”‚â”€â”€â”€â”€â”€â”€â”˜    â””â”€â”€â”€â”€â”€â”€â”€â•• â”‚   â”‚ â”‚                  â”‚   â”‚    â”‚  â”‚
+ *            â”‚â”‚                â”‚â”‚      â”‚â”‚                        â”Œâ”€â”€â”€â”€â”€â”â””â”€â”˜   â””â”€â”˜â”Œâ”€â”€â”€â”€â••â”‚   â”‚    â”‚  â”‚
+ *            â””â”˜                â””â”˜      â””â”˜                         â””â”€â”€â”€â”€â”€â”˜                   â””â”€â”€â”€â”€â”˜â””â”€â”˜    â””â”€â”˜
  *           
  *           
- *           ×÷Õß:·½×Óº®
- *           Ö§³Ö:ÉñµÆ                                             
+ *           ä½œè€…:æ–¹å­å¯’
+ *           æ”¯æŒ:ç¥ç¯                                             
  */
 
 public class sdnpy extends JFrame {
@@ -30,35 +30,35 @@ public class sdnpy extends JFrame {
 		pan1=new JPanel();
 		pan2=new JPanel();
 		pan3=new JPanel();
-		l1=new JLabel("ÇëÎÊÄãÓĞ¼¸¸öÅ®ÅóÓÑ?");
-		l2=new JLabel("ÄãÏ²»¶ÔõÑùµÄÅ®Éú?");
-		l3=new JLabel("»¹ÓĞÊ²Ã´ĞèÇóÂğ?");
-		dxk1=new JRadioButton("1¸ö");
-		dxk2=new JRadioButton("2¸ö");
-		dxk3=new JRadioButton("3¸ö");
-		dxk4=new JRadioButton("4¸ö»òÒÔÉÏ");
-		fxk1=new JCheckBox("Çå´¿");
-		fxk2=new JCheckBox("¿É°®");
-		fxk3=new JCheckBox("¸ß´ó");
-		fxk4=new JCheckBox("±©Á¦");
+		l1=new JLabel("è¯·é—®ä½ æœ‰å‡ ä¸ªå¥³æœ‹å‹?");
+		l2=new JLabel("ä½ å–œæ¬¢æ€æ ·çš„å¥³ç”Ÿ?");
+		l3=new JLabel("è¿˜æœ‰ä»€ä¹ˆéœ€æ±‚å—?");
+		dxk1=new JRadioButton("1ä¸ª");
+		dxk2=new JRadioButton("2ä¸ª");
+		dxk3=new JRadioButton("3ä¸ª");
+		dxk4=new JRadioButton("4ä¸ªæˆ–ä»¥ä¸Š");
+		fxk1=new JCheckBox("æ¸…çº¯");
+		fxk2=new JCheckBox("å¯çˆ±");
+		fxk3=new JCheckBox("é«˜å¤§");
+		fxk4=new JCheckBox("æš´åŠ›");
 		wbk1=new JTextField(10);
-		b1=new JButton("Ìá½»");
+		b1=new JButton("æäº¤");
 		anz1=new ButtonGroup();
-		//´´½¨¸÷ÖÖ×é½¨
+		//åˆ›å»ºå„ç§ç»„å»º
 		
-		l1.setFont(new java.awt.Font("Î¢ÈíÑÅºÚ",0,15)); 
-		l2.setFont(new java.awt.Font("Î¢ÈíÑÅºÚ",0,15)); 
-		l3.setFont(new java.awt.Font("Î¢ÈíÑÅºÚ",0,15)); 
+		l1.setFont(new java.awt.Font("å¾®è½¯é›…é»‘",0,15)); 
+		l2.setFont(new java.awt.Font("å¾®è½¯é›…é»‘",0,15)); 
+		l3.setFont(new java.awt.Font("å¾®è½¯é›…é»‘",0,15)); 
 		
 		
 		this.setLayout(new GridLayout(7,1));
 		pan1.setLayout(new FlowLayout(0));
 		pan2.setLayout(new FlowLayout(0));
 		pan3.setLayout(new FlowLayout(2));
-		//ÉèÖÃ²¼¾Ö¹ÜÀíÆ÷
+		//è®¾ç½®å¸ƒå±€ç®¡ç†å™¨
 		
 		anz1.add(dxk1);		anz1.add(dxk2);		anz1.add(dxk3);		anz1.add(dxk4);
-		//°´Å¥×éÌí¼Ó°´Å¥
+		//æŒ‰é’®ç»„æ·»åŠ æŒ‰é’®
 		
 		pan1.add(dxk1);		pan1.add(dxk2);		pan1.add(dxk3);		pan1.add(dxk4);
 		pan2.add(fxk1);		pan2.add(fxk2);		pan2.add(fxk3);		pan2.add(fxk4);
@@ -70,9 +70,9 @@ public class sdnpy extends JFrame {
 		this.add(l3);
 		this.add(wbk1);
 		this.add(pan3);
-		//Ìí¼Ó¸÷ÖÖ×é¼ş
+		//æ·»åŠ å„ç§ç»„ä»¶
 		
-		this.setTitle("ÉñµÆµÄµ÷²éÎÊ¾í");
+		this.setTitle("ç¥ç¯çš„è°ƒæŸ¥é—®å·");
 		this.setSize(400,300);
 		this.setLocation(600,300);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
