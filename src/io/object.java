@@ -1,7 +1,7 @@
 package io;
 import java.io.*;
 
-class QD implements Serializable{
+class QD implements Serializable{//创建QD
 	String name=null;
 	int IQ =0;
 	public QD(String name,int IQ) {
